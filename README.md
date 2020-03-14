@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 void main()
- {
+  {
    int n; 
    float r
    printf("\nEnter your choice \n1. Circle\n2.rectangle\n3.triangle");
    scanf("%d",n) ;
    switch(n)
-    {
+     {
       case1 :
          printf("\nEnter the radius of circle");
          scanf("%f",&r); 
@@ -24,5 +24,6 @@ void main()
          s=(a+b+c)/2;
          printf("\nArea =%f",sqrt(s*(s-a) *(s-b) *(s-c))); 
          break; 
-     }
-  }
+      }
+   
+}
